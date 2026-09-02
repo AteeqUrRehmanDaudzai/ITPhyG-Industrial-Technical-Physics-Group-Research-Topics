@@ -1,8 +1,8 @@
-RESEARCH & INNOVATION HUB WEBSITE
+RESEARCH & Project Titles
 
 Files
 -----
-index.html   Standalone responsive website.
+index.html:   Standalone responsive website.
 
 How to use
 ----------
