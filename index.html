@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Research & Innovation in Smart Grids, RECs, AI & Sustainable Energy</title>
+<title>ITPhyG Research Topics | Smart Grids, RECs, AI & Sustainable Energy</title>
 <meta name="description" content="Research portfolio covering Smart Grids, Renewable Energy Communities, AI/ML, Smart Buildings, Perovskite Solar Technologies, IoT and Datacenter Cooling.">
 <style>
 :root{
@@ -195,7 +195,7 @@ footer strong{color:#fff}
           <path d="M4 15h4l2-6 4 10 2-6h4"/>
         </svg>
       </span>
-      <span>Research & Innovation Hub</span>
+      <span>ITPhyG Research Topics</span>
     </a>
     <nav class="navlinks" aria-label="Main navigation">
       <a href="#home">Home</a>
@@ -394,6 +394,7 @@ footer strong{color:#fff}
     <div class="subtabs" role="tablist">
       <button class="active" onclick="showTab(event,'pvgen')">PV Generations</button>
       <button onclick="showTab(event,'perov')">Perovskite Workflow</button>
+      <button onclick="showTab(event,'recycle')">Solar Panel Recycling</button>
       <button onclick="showTab(event,'trombe')">Trombe–Michel Wall</button>
     </div>
 
@@ -425,6 +426,114 @@ footer strong{color:#fff}
         </div>
       </div>
       <div class="quote" style="margin-top:20px">Experimental data validate the virtual model; validated simulations guide the next fabrication cycle.</div>
+    </div>
+
+
+    <div id="recycle" class="tab-panel">
+      <div class="grid-2">
+        <div class="card">
+          <div class="iconbox green">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M8 4l2-2 2 3M10 2l3 5H8"/>
+              <path d="M18 9l3 1-2 3M21 10l-3 5-3-2"/>
+              <path d="M8 20l-3-1 1-3M5 19l3-5 3 2"/>
+            </svg>
+          </div>
+          <h3>PV End-of-Life & Circularity</h3>
+          <p>
+            Solar modules are designed for long outdoor service, but their polymer-bonded multilayer construction
+            makes end-of-life separation difficult. The research challenge is to recover glass, aluminium, copper,
+            silicon and silver with high purity while minimizing energy, chemicals, emissions and cost.
+          </p>
+          <div class="quote" style="margin-top:18px">
+            <strong>Research direction:</strong> compare mechanical, thermal and chemical recycling pathways;
+            quantify material recovery, energy demand, carbon benefit and scale-up feasibility; and investigate
+            design-for-recycling concepts for future silicon and perovskite modules.
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Typical PV Module Composition</h3>
+          <div class="metric-row" style="grid-template-columns:repeat(2,1fr);margin-top:10px">
+            <div class="metric"><strong>~76%</strong><span class="small">Glass</span></div>
+            <div class="metric"><strong>~10%</strong><span class="small">Plastics / polymers</span></div>
+            <div class="metric"><strong>~8%</strong><span class="small">Aluminium</span></div>
+            <div class="metric"><strong>~5%</strong><span class="small">Silicon</span></div>
+          </div>
+          <p class="small" style="margin-top:14px">
+            Smaller fractions include copper and silver. Their low mass fraction can still make them economically
+            important because of their value and embodied energy.
+          </p>
+        </div>
+      </div>
+
+      <div style="height:22px"></div>
+
+      <div class="diagram">
+        <h3 style="margin-top:0">Research workflow for solar-panel recycling</h3>
+        <div class="flow">
+          <div class="flowbox">End-of-Life PV Module</div>
+          <div class="arrow">→</div>
+          <div class="flowbox">Thermal / Delamination Step</div>
+          <div class="arrow">→</div>
+          <div class="flowbox">Mechanical Separation</div>
+        </div>
+        <div class="flow" style="margin-top:10px">
+          <div class="flowbox">Recovered Glass · Al · Cu</div>
+          <div class="arrow">←</div>
+          <div class="flowbox">Chemical / Wet Separation</div>
+          <div class="arrow">←</div>
+          <div class="flowbox">Cell Fragments · Si · Ag</div>
+        </div>
+      </div>
+
+      <div style="height:22px"></div>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>1 · Thermal Delamination</h3>
+          <p>
+            Controlled heating or pyrolysis can remove encapsulating polymers and expose the module layers for
+            downstream separation. A key research variable is the trade-off among temperature, residence time,
+            energy use, emissions and material quality.
+          </p>
+        </div>
+        <div class="card">
+          <h3>2 · Mechanical Separation</h3>
+          <p>
+            Sorting separates bulk fractions such as glass, aluminium and copper. Mechanical-only routes can reduce
+            chemical use and cost, but recovery purity and yield may be lower for tightly bonded cell materials.
+          </p>
+        </div>
+        <div class="card">
+          <h3>3 · High-Value Recovery</h3>
+          <p>
+            Wet-chemical processing can separate silicon and silver from cell fragments. The research priority is
+            high recovery with low chemical intensity, closed-loop reagent use and safe industrial scale-up.
+          </p>
+        </div>
+      </div>
+
+      <div style="height:22px"></div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Reported Pilot-Scale Recovery Example</h3>
+          <div class="research-list">
+            <div class="research-item"><div class="research-num">99</div><div><strong>Glass, aluminium & copper</strong><div class="small">Reported recovery of approximately 99% in the described combined process.</div></div></div>
+            <div class="research-item"><div class="research-num">90</div><div><strong>Silicon</strong><div class="small">Reported recovery of approximately 90%.</div></div></div>
+            <div class="research-item"><div class="research-num">95</div><div><strong>Silver</strong><div class="small">Reported recovery of approximately 95%.</div></div></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Next Research Directions</h3>
+          <div class="research-list">
+            <div class="research-item"><div class="research-num">A</div><div><strong>Design for disassembly</strong><div class="small">Release encapsulants, reversible bonding and glass-to-glass concepts.</div></div></div>
+            <div class="research-item"><div class="research-num">B</div><div><strong>Life-cycle & techno-economic analysis</strong><div class="small">Compare landfill, mechanical, thermal and hybrid recycling routes.</div></div></div>
+            <div class="research-item"><div class="research-num">C</div><div><strong>Perovskite recyclability</strong><div class="small">Study selective layer dissolution, material recovery and safer solvent/reagent loops.</div></div></div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="trombe" class="tab-panel">
@@ -510,32 +619,144 @@ footer strong{color:#fff}
 <section id="portfolio" class="section alt">
   <div class="container">
     <div class="kicker">Research Portfolio</div>
-    <h2>Technical and theoretical research directions</h2>
-    <p class="lead">The portfolio combines applied simulation/experimental topics with broader review, protocol and policy studies.</p>
+    <h2>Research topics, scope and future direction</h2>
+    <p class="lead">
+      Each topic is framed as a research line rather than only a title: the <strong>scope</strong> states the problem
+      to be investigated, while the <strong>direction</strong> identifies the next technical or scientific step.
+    </p>
 
     <div class="grid-2">
       <div class="card">
         <h3>Technical & Simulation Topics</h3>
         <div class="research-list">
-          <div class="research-item"><div class="research-num">1</div><div>Electricity fault and theft detection using ML/AI and deep learning</div></div>
-          <div class="research-item"><div class="research-num">2</div><div>Electric energy management and optimization using ML/AI and algorithms</div></div>
-          <div class="research-item"><div class="research-num">3</div><div>Smart buildings energy and security management</div></div>
-          <div class="research-item"><div class="research-num">4</div><div>Perovskite and solar-cell technologies in the laboratory and COMSOL</div></div>
-          <div class="research-item"><div class="research-num">5</div><div>Smart home using Arduino kit and mobile application</div></div>
-          <div class="research-item"><div class="research-num">6</div><div>Datacenter / hyperscaler cooling problems and advanced solutions</div></div>
+
+          <div class="research-item">
+            <div class="research-num">1</div>
+            <div><strong>Electricity Fault & Theft Detection using ML/AI</strong>
+              <div class="small"><b>Scope:</b> Detect non-technical losses, abnormal consumption and grid faults from smart-meter and sensor data.</div>
+              <div class="small"><b>Direction:</b> Develop explainable, privacy-aware and real-time models combining deep learning, edge intelligence and cyber-physical validation.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">2</div>
+            <div><strong>Electric Energy Management & Multi-Objective Optimization</strong>
+              <div class="small"><b>Scope:</b> Coordinate renewable generation, storage, grid exchange and flexible demand under price and forecast variability.</div>
+              <div class="small"><b>Direction:</b> Integrate forecasting with NSGA-II/MOANA-type optimization, uncertainty analysis and real-time control for cost, CO₂, peak demand and comfort objectives.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">3</div>
+            <div><strong>Smart Buildings: Energy, Comfort & Security Management</strong>
+              <div class="small"><b>Scope:</b> Integrate HVAC, lighting, metering, occupancy, access control and security devices within one intelligent platform.</div>
+              <div class="small"><b>Direction:</b> Develop coordinated building control that jointly optimizes energy efficiency, thermal comfort, resilience and security.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">4</div>
+            <div><strong>Perovskite & Solar-Cell Technologies in Lab and COMSOL</strong>
+              <div class="small"><b>Scope:</b> Link device fabrication and characterization with multiphysics modeling of optical, electrical and thermal behavior.</div>
+              <div class="small"><b>Direction:</b> Validate COMSOL models experimentally and optimize layer thickness, transport properties, stability, efficiency and thermal management.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">5</div>
+            <div><strong>Smart Home using Arduino, IoT & Application</strong>
+              <div class="small"><b>Scope:</b> Connect environmental sensors, actuators, smart loads and mobile/cloud interfaces for residential monitoring and control.</div>
+              <div class="small"><b>Direction:</b> Extend the prototype toward forecasting, automated demand response, secure remote control and low-cost home energy management.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">6</div>
+            <div><strong>Datacenter / Hyperscaler Cooling</strong>
+              <div class="small"><b>Scope:</b> Compare air, direct-to-chip, immersion and alternative cooling architectures for high-density computing.</div>
+              <div class="small"><b>Direction:</b> Optimize coolant properties, loop hydraulics, thermal resistance, pumping power, PUE and waste-heat recovery for district-energy integration.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">7</div>
+            <div><strong>Solar Panel Recycling & PV Circular Economy</strong>
+              <div class="small"><b>Scope:</b> Recover glass, aluminium, copper, silicon and silver from end-of-life PV modules while managing polymer encapsulation.</div>
+              <div class="small"><b>Direction:</b> Compare thermal, mechanical and chemical routes; quantify recovery, emissions and economics; and investigate recyclable module and perovskite designs.</div>
+            </div>
+          </div>
+
         </div>
       </div>
 
       <div class="card">
         <h3>Theoretical & Review Topics</h3>
         <div class="research-list">
-          <div class="research-item"><div class="research-num">1</div><div>Security protocols in smart grids / smart meters and future RECs</div></div>
-          <div class="research-item"><div class="research-num">2</div><div>Energy-sharing protocols and techniques in smart grids and RECs</div></div>
-          <div class="research-item"><div class="research-num">3</div><div>Social acceptance and bureaucratic procedure effects on RECs</div></div>
-          <div class="research-item"><div class="research-num">4</div><div>Evolution from traditional grids to smart grids and RECs through IoT</div></div>
-          <div class="research-item"><div class="research-num">5</div><div>Perovskite and solar-cell technology evolution and applications</div></div>
-          <div class="research-item"><div class="research-num">6</div><div>Advanced datacenter cooling: air, direct-to-chip, subsea, space and beyond cooling</div></div>
-          <div class="research-item"><div class="research-num">7</div><div>Trombe–Michel wall comprehensive review study</div></div>
+
+          <div class="research-item">
+            <div class="research-num">1</div>
+            <div><strong>Security Protocols in Smart Grids / Smart Meters & Future RECs</strong>
+              <div class="small"><b>Scope:</b> Review encryption, authentication, key management, privacy, FDIA/DoS resilience and trusted energy transactions.</div>
+              <div class="small"><b>Direction:</b> Develop REC-ready architectures using decentralized identity, secure P2P settlement and resilience during islanded operation.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">2</div>
+            <div><strong>Energy-Sharing Protocols & Techniques in SGs and RECs</strong>
+              <div class="small"><b>Scope:</b> Study centralized, decentralized and federated P2P trading, demand response, VPPs and interoperability.</div>
+              <div class="small"><b>Direction:</b> Design fair community coordination mechanisms balancing individual profit, community welfare, grid constraints and renewable utilization.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">3</div>
+            <div><strong>Social Acceptance & Bureaucratic Effects on RECs</strong>
+              <div class="small"><b>Scope:</b> Examine licensing, grid connection, regulatory inconsistency, trust, ownership, inclusivity and participation barriers.</div>
+              <div class="small"><b>Direction:</b> Build comparative indicators and policy recommendations for faster, fairer and more inclusive REC deployment.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">4</div>
+            <div><strong>Evolution from Traditional Grids to Smart Grids & RECs</strong>
+              <div class="small"><b>Scope:</b> Trace the shift from centralized one-way systems toward active, IoT-enabled, software-defined and community-based networks.</div>
+              <div class="small"><b>Direction:</b> Map the role of AMI, PMUs, edge computing, IoT, distributed intelligence and community flexibility in future grid architectures.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">5</div>
+            <div><strong>Perovskite & Solar-Cell Technology Evolution</strong>
+              <div class="small"><b>Scope:</b> Review silicon, thin-film and emerging PV generations, tandem architectures, BIPV and stability challenges.</div>
+              <div class="small"><b>Direction:</b> Connect efficiency progress with durability, thermal behavior, manufacturability, recyclability and building integration.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">6</div>
+            <div><strong>Advanced Datacenter Cooling: Air to Beyond Cooling</strong>
+              <div class="small"><b>Scope:</b> Review traditional air cooling, direct-to-chip, immersion, subsea concepts, orbital computing and heat reuse.</div>
+              <div class="small"><b>Direction:</b> Compare technologies through thermal efficiency, water/energy use, reliability, lifecycle impact and integration with district heating.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">7</div>
+            <div><strong>Trombe–Michel Wall Review</strong>
+              <div class="small"><b>Scope:</b> Study passive solar heating, natural convection, thermal mass, glazing, selective coatings, PCM and PV-integrated variants.</div>
+              <div class="small"><b>Direction:</b> Develop climate-specific design guidance using experiments and numerical modeling for heating/cooling performance and thermal comfort.</div>
+            </div>
+          </div>
+
+          <div class="research-item">
+            <div class="research-num">8</div>
+            <div><strong>PV End-of-Life, Recycling & Design for Circularity</strong>
+              <div class="small"><b>Scope:</b> Review material composition, delamination, sorting, chemical recovery, recycled-material quality and current scale-up barriers.</div>
+              <div class="small"><b>Direction:</b> Evaluate design-for-disassembly, recyclable encapsulants, glass-based module designs and future perovskite recycling pathways.</div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -546,8 +767,8 @@ footer strong{color:#fff}
 <footer>
   <div class="container footer-grid">
     <div>
-      <strong style="font-size:1.18rem">Research Work and Topics</strong>
-      <p>Smart Grids · Renewable Energy Communities · AI/ML · Advanced PV · Smart Buildings · IoT · Thermal Management</p>
+      <strong style="font-size:1.18rem">ITPhyG — Industrial Technical Physics Group</strong>
+      <p>Smart Grids · Renewable Energy Communities · AI/ML · Advanced PV · PV Recycling · Smart Buildings · IoT · Thermal Management</p>
       <div class="small">Department of Industrial Engineering · Università degli Studi di Roma Tor Vergata</div>
     </div>
     <div>
